@@ -1,0 +1,51 @@
+@startuml
+left to right direction
+
+"Professor Ecomp" as Prof
+"Aluno Ecomp" as Aluno
+"Visitante" as Visit
+
+"Visualizar TCCs" as (Visualizar)
+"Buscar TCCs" as (Buscar)
+"Filtrar Busca de TCCs" as (Filtrar)
+"Fazer Download da Monografia" as (Download)
+"Fazer Login" as (Login)
+"Editar Paginação da Lista de TCCs" as (Paginar)
+"Recuperar Senha" as (Senha)
+"Fazer Cadastro" as (Cadastro)
+"Marcar Data de Defesa" as (Data)
+
+:Visit: --> (Visualizar)
+:Aluno: --> (Visualizar)
+:Prof: --> (Visualizar)
+
+:Visit: --> (Buscar)
+:Aluno: --> (Buscar)
+:Prof: --> (Buscar)
+
+:Visit: --> (Download)
+:Aluno: --> (Download)
+:Prof: --> (Download)
+
+:Visit: --> (Filtrar)
+:Aluno: --> (Filtrar)
+:Prof: --> (Filtrar)
+
+:Visit: --> (Paginar)
+:Aluno: --> (Paginar)
+:Prof: --> (Paginar)
+
+:Visit: --> (Cadastro)
+
+:Aluno: --> (Login)
+:Aluno: --> (Senha)
+:Prof: --> (Login)
+:Prof: --> (Senha)
+
+:Aluno: --> (Data)
+:Prof: --> (Data)
+
+
+:Prof: --> (Administrar a aplicação)
+:Visit: --> (Realizar Cadastro)
+@enduml
