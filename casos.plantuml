@@ -1,4 +1,4 @@
-@startuml
+@startuml casos de uso
 left to right direction
 
 "Professor Ecomp" as Prof
