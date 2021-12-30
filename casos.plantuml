@@ -1,44 +1,58 @@
 @startuml casosdeuso
 left to right direction
 
-"Professor Ecomp" as Prof
+"Banca" as Banca
 "Aluno Ecomp" as Aluno
 "Visitante" as Visit
 
-package Sistema_de_Gestão_de_TCC {
-"Visualizar TCCs" as (Visualizar)
+"Orientador" as Orie
+"Co-Orientador" as Coor
+"Avaliador" as Aval
+
+:Banca: <|-- Orie
+:Banca: <|-- Coor
+:Banca: <|-- Aval
+
+package Monitora_TCC {
+"Visualizar TCC" as (Visualizar)
+"Listar TCCs" as (Listar)
 "Buscar TCCs" as (Buscar)
-"Filtrar Busca de TCCs" as (Filtrar)
 "Fazer Download da Monografia" as (Download)
 "Fazer Login" as (Login)
-"Editar Paginação da Lista de TCCs" as (Paginar)
+"Editar Paginação" as (Paginar)
 "Recuperar Senha" as (Senha)
 "Fazer Cadastro" as (Cadastro)
 "Marcar Data de Defesa" as (Data)
-"Admnistrar a Aplicação" as (Adm)
+"Fazer Upload de Monografia" as (Upload)
+"Gerar Ata de Bancas" as (Atas)
+"Gerenciar Cronograma da Banca" as (Crono)
+"Aprovar Monografia" as (Aprovar)
 }
-:Prof: -up-> (Buscar)
-:Prof: -up-> (Visualizar)
-:Prof: -up-> (Download)
-:Prof: -up-> (Filtrar)
-:Prof: -up-> (Paginar)
-:Prof: -up-> (Login)
-:Prof: -up-> (Senha)
-:Prof: -up-> (Data)
-:Prof: -up-> (Adm)
+
+:Banca: -up-> (Listar)
+:Banca: -up-> (Visualizar)
+:Banca: -up-> (Download)
+:Banca: -up-> (Buscar)
+:Banca: -up-> (Paginar)
+:Banca: -up-> (Login)
+:Banca: -up-> (Senha)
+:Coor: -up-> (Upload)
+:Orie: -up-> (Upload)
+
+:Orie: -up-> (Atas)
+
 
 :Visit: --> (Visualizar)
 :Aluno: --> (Visualizar)
 
-
-:Visit: --> (Buscar)
-:Aluno: --> (Buscar)
+:Visit: --> (Listar)
+:Aluno: --> (Listar)
 
 :Visit: --> (Download)
 :Aluno: --> (Download)
 
-:Visit: --> (Filtrar)
-:Aluno: --> (Filtrar)
+:Visit: --> (Buscar)
+:Aluno: --> (Buscar)
 
 :Visit: --> (Paginar)
 :Aluno: --> (Paginar)
@@ -49,6 +63,10 @@ package Sistema_de_Gestão_de_TCC {
 :Aluno: --> (Senha)
 
 :Aluno: --> (Data)
+(Data) --> :Banca:
 
-:Visit: --> (Cadastro)
+:Orie: -up-> (Crono)
+
+:Aval: -up-> (Aprovar)
+:Orie: -up-> (Aprovar)
 @enduml
