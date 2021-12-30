@@ -20,12 +20,15 @@ package Monitora_TCC {
 "Gerar Cronograma de Defesas" as (Crono)
 "Gerar Termo de Concordância de Orientação" as (Termo)
 }
-:Prof: -up-> (Upload)
+
 :Prof: -up-> (Buscar)
 :Prof: -up-> (Visualizar)
 :Prof: -up-> (Download)
 
 :Prof: -up-> (Listar)
+
+:Prof: -up-> (Upload)
+(Upload) --> :Sist:
 
 :Visit: --> (Visualizar)
 :Aluno: --> (Visualizar)
@@ -44,7 +47,6 @@ package Monitora_TCC {
 
 :Aluno: --> (Data)
 (Data) --> :Prof:
-:Sist: -up-> (Data)
 
 :Aluno: --> (Termo)
 (Termo) --> :Sist:
