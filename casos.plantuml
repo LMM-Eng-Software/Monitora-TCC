@@ -1,17 +1,12 @@
 @startuml casosdeuso
 left to right direction
 
-"Banca" as Banca
-"Aluno Ecomp" as Aluno
+"Aluno eComp" as Aluno
 "Visitante" as Visit
 
-"Orientador" as Orie
-"Co-Orientador" as Coor
-"Avaliador" as Aval
+"Sistema TCC" as Sist
+"Orientador" as Prof
 
-:Banca: <|-- Orie
-:Banca: <|-- Coor
-:Banca: <|-- Aval
 
 package Monitora_TCC {
 "Visualizar TCC" as (Visualizar)
@@ -19,28 +14,18 @@ package Monitora_TCC {
 "Buscar TCCs" as (Buscar)
 "Fazer Download da Monografia" as (Download)
 "Fazer Login" as (Login)
-"Editar Paginação" as (Paginar)
-"Recuperar Senha" as (Senha)
-"Fazer Cadastro" as (Cadastro)
 "Marcar Data de Defesa" as (Data)
 "Fazer Upload de Monografia" as (Upload)
 "Gerar Ata de Bancas" as (Atas)
-"Gerenciar Cronograma da Banca" as (Crono)
-"Aprovar Monografia" as (Aprovar)
+"Gerar Cronograma de Defesas" as (Crono)
+"Gerar Termo de Concordância de Orientação" as (Termo)
 }
+:Prof: -up-> (Upload)
+:Prof: -up-> (Buscar)
+:Prof: -up-> (Visualizar)
+:Prof: -up-> (Download)
 
-:Banca: -up-> (Listar)
-:Banca: -up-> (Visualizar)
-:Banca: -up-> (Download)
-:Banca: -up-> (Buscar)
-:Banca: -up-> (Paginar)
-:Banca: -up-> (Login)
-:Banca: -up-> (Senha)
-:Coor: -up-> (Upload)
-:Orie: -up-> (Upload)
-
-:Orie: -up-> (Atas)
-
+:Prof: -up-> (Listar)
 
 :Visit: --> (Visualizar)
 :Aluno: --> (Visualizar)
@@ -54,19 +39,16 @@ package Monitora_TCC {
 :Visit: --> (Buscar)
 :Aluno: --> (Buscar)
 
-:Visit: --> (Paginar)
-:Aluno: --> (Paginar)
-
-:Visit: --> (Cadastro)
-
 :Aluno: --> (Login)
-:Aluno: --> (Senha)
+:Prof: -up-> (Login)
 
 :Aluno: --> (Data)
-(Data) --> :Banca:
+(Data) --> :Prof:
+:Sist: -up-> (Data)
 
-:Orie: -up-> (Crono)
+:Aluno: --> (Termo)
+(Termo) --> :Sist:
 
-:Aval: -up-> (Aprovar)
-:Orie: -up-> (Aprovar)
+:Sist: -up-> (Atas)
+:Sist: -up-> (Crono)
 @enduml
