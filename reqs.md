@@ -1,19 +1,19 @@
-# Especificação dos Requisitos do SITCC
+# Especificação dos Requisitos do Monitora TCC
 
 ## Requisitos Funcionais
 
 ### Lista de Requisitos Funcionais
 
-- RF01 - Visualizar TCC
-- RF02 - Listar TCCs
-- RF03 - Buscar TCC
-- RF04 - Fazer Download do TCC
-- RF05 - Fazer Login
-- RF06 - Marcar Data de Defesa
-- RF07 - Fazer Upload de TCC
-- RF08 - Gerar Ata de Banca
-- RF09 - Gerar Cronograma de Defesa
-- RF10 - Gerar Termo de Concordância de Orientação
+- RF01 - Buscar TCC
+- RF02 - Fazer Download do TCC
+- RF03 - Fazer Login
+- RF04 - Marcar Data de Defesa
+- RF05 - Fazer Upload de TCC
+- RF06 - Gerar Ata de Banca
+- RF07 - Gerar Cronograma de Defesa
+- RF08 - Gerar Termo de Concordância de Orientação
+- RF09 - Gerar Declaração de Participação
+- RF10 - Gerar declaração de participação de banca
 
 ### Diagrama de Casos de Uso
 
@@ -21,8 +21,16 @@
 
 ### Especificicações de Casos de Uso
 
-- [UC_01](reqs_UC01.md)
-- [UC_02](reqs_UC02.md)
+- [UC_01](reqs_buscar.md)
+- [UC_02](reqs_download.md)
+- [UC_03](reqs_login.md)
+- [UC_04](reqs_data.md)
+- [UC_05](reqs_upload.md)
+- [UC_06](reqs_ata.md)
+- [UC_07](reqs_defesas_agendadas.md)
+- [UC_08](reqs_concordancia.md)
+- [UC_09](reqs_listar.md)
+- [UC_10](reqs_participacao.md)
 
 ## Requisitos não-funcionais
 
