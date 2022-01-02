@@ -12,7 +12,7 @@ package Monitora_TCC {
 "Visualizar TCC" as (Visualizar)
 "Listar TCCs" as (Listar)
 "Buscar TCCs" as (Buscar)
-"Fazer Download da Monografia" as (Download)
+"Fazer Download de TCC" as (Download)
 "Fazer Login" as (Login)
 "Marcar Data de Defesa" as (Data)
 "Fazer Upload de Monografia" as (Upload)
@@ -35,9 +35,11 @@ package Monitora_TCC {
 
 :Visit: --> (Listar)
 :Aluno: --> (Listar)
+(Listar) --> :Sist:
 
 :Visit: --> (Download)
 :Aluno: --> (Download)
+(Download) --> :Sist:
 
 :Visit: --> (Buscar)
 :Aluno: --> (Buscar)
