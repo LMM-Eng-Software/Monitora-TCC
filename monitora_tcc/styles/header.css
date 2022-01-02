@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    align-items: center;
+
+    height: 17vh;
+
+    padding: 4vh;
+    
+    color: black;
+    background-color: #F0F0F0;
+}
+
+a {
+    text-decoration: none;
+
+    color: black;
+}
+
+.logo{
+    width: 21%;
+
+    margin-right: 1em;
+}
+
+.titulo-site {
+    width: 69%;
+}
+
+.login {
+    width: 10%;
+
+    font-size: 0.5em;
+}

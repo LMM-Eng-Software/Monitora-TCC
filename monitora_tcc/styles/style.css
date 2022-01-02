@@ -1,0 +1,48 @@
+body {
+    background: #326699;
+
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+    height: 75vh;
+
+    justify-content: space-between;
+}
+
+.descricao {
+    text-align: justify;
+
+    color: #F0F0F0;
+    font-size: 16px;
+
+    margin: 4vh 4vh 0vh 4vh;
+}
+
+#links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 25vh;
+}
+
+.botao-link {
+    border: 1px solid #c2d1e7;
+    border-radius: 4px;
+
+    display: flex;
+
+    margin-right: 1em;
+
+    background-color: #f4f6f8;
+    color: #1659bf;
+    font-size: 22px;
+    padding: 20px 30px;
+
+    text-decoration: none;
+}
