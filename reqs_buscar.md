@@ -22,7 +22,11 @@ Usuário visualiza TCCs com base na sua pesquisa.
   * CA2.1 - Usuário deseja visualizar TCCs os quais foram avaliados por um membro específico da banca;  
   * CA2.2 - Usuário insere o nome do membro da banca no campo "Buscar";  
   * CA2.3 - Retorna ao passo 3 do caso base;  
+<<<<<<< HEAD
 ## Casos de Exceção:
+=======
+## Casos de exceção:
+>>>>>>> 3263c7e385ca303b59efa815fc63e3209dd47e1a
 * CE1 - Entrada Inválida  
   * CE1.1 - Usuário insere uma entrada no campo "Buscar";  
   * CE1.2 - Sistema TCC não encontra resultados correspondentes de TCCs disponíveis no site ao fazer o filtro;  
