@@ -13,7 +13,7 @@
 - RF07 - Gerar Cronograma de Defesa
 - RF08 - Gerar Termo de Concordância de Orientação
 - RF09 - Gerar Declaração de Participação
-- RF10 - Gerar declaração de participação de banca
+- RF10 - Gerar Declaração de Participação de Banca
 
 ### Diagrama de Casos de Uso
 
