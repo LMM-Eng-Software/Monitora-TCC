@@ -1,7 +1,7 @@
 main {
-    height: 71vh;
+    height: auto;
 
-    margin: 4vh 4vh 0vh 4vh;
+    margin: 4vh 4vh 10vh 4vh;
 
     justify-content: flex-start;
 }
@@ -15,7 +15,6 @@ main {
 
     font-size: 28px;
     line-height: 4vh;
-    /* font-weight: normal; */
 
     margin-bottom: 1vh;
 
@@ -48,7 +47,6 @@ main {
 
     outline: none;
 
-    height: 100%;
     width: 100%;
 }
 
@@ -60,7 +58,6 @@ main {
     border-radius: 0 7px 7px 0;
 
     width: 100%;
-    height: 100%;
 
     font-weight: bold;
     background: #36BFB6;
