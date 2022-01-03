@@ -1,0 +1,26 @@
+.div-tabela {
+    background-color: #F0F0F0;
+
+    padding: 2vh 0vh 0vh 0vh;
+
+    border-radius: 4px;
+}
+
+.lista-tccs {    
+    text-align: center;
+    font-size: 14px;
+
+    border: solid 2px black;
+}
+
+.lista-tccs tr:not(:first-child) {
+    text-align: left;
+}
+
+.lista-tccs td {
+    vertical-align: middle;
+
+    padding: 2vh;
+
+    border: solid 2px black;
+}
