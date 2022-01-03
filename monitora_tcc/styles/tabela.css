@@ -13,6 +13,10 @@
     border: solid 2px black;
 }
 
+.lista-tccs td {
+    width: 20%;
+}
+
 .lista-tccs tr:not(:first-child) {
     text-align: left;
 }
@@ -23,4 +27,31 @@
     padding: 2vh;
 
     border: solid 2px black;
+}
+
+.td-autores-avaliadores {
+    line-height: 4vh;
+}
+
+.td-botao {
+    text-align: center;
+}
+
+.td-botao button {
+    padding: 6px 12px 6px 12px;
+
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    
+    background-image: url("../images/download-arrow.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 2vh;
+
+    color: #000103;
+    cursor: pointer;
+}
+
+.td-botao button p {
+    margin-left: 2vw;
 }
