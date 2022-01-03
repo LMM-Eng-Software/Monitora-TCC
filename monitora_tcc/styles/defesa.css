@@ -1,0 +1,13 @@
+main {
+    height: auto;
+
+    margin: 15vh 4vh 10vh 4vh;
+
+    justify-content: flex-start;
+}
+
+.lista-tccs td:nth-child(n+4):nth-child(-n+5) {
+    width: 5%;
+
+    text-align: center;
+}
