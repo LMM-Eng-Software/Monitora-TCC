@@ -20,6 +20,8 @@ main {
     color: #F0F0F0;
     font-size: 16px;
 
+    align-items: center;
+
     margin: 4vh 4vh 0vh 4vh;
 }
 
