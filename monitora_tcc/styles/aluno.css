@@ -1,5 +1,9 @@
 main {
+  display: flex;
+
   justify-content: center;
+
+  height: 75vh;
 }
 
 .button-container {
