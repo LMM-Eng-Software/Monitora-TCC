@@ -1,0 +1,23 @@
+.usuario {
+    display: flex;
+    flex-direction: column;
+
+    align-items: end;
+
+    width: 20vw;
+
+    font-size: 0.5em;
+}
+
+.usuario-info {
+    display: flex;
+    align-items: center;
+}
+
+.usuario img {
+    margin-left: 2vw;
+}
+
+.usuario a {
+    margin-right: 1.45vw;
+}

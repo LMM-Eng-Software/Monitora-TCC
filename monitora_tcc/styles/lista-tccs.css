@@ -29,7 +29,8 @@ main {
     border: solid 2px #36BFB6;
     border-radius: 10px;
 
-    margin-bottom: 4vh;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
 
     width: 20%;
     height: 8%;

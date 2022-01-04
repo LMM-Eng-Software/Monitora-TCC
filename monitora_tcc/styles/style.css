@@ -5,17 +5,18 @@ body {
     font-size: 28px;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
+.index-main {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
 
     height: 75vh;
-
-    justify-content: space-between;
 }
 
 .descricao {
     text-align: justify;
+    line-height: 1.5;
 
     color: #F0F0F0;
     font-size: 16px;
@@ -25,12 +26,12 @@ main {
     margin: 4vh 4vh 0vh 4vh;
 }
 
-#links {
+.button-container{
     display: flex;
     justify-content: center;
     align-items: center;
 
-    margin-bottom: 25vh;
+    margin-bottom: 35vh;
 }
 
 .botao-link {
@@ -48,3 +49,9 @@ main {
 
     text-decoration: none;
 }
+
+.botao-link:hover{
+    background-color: #1659bf;
+    color: #fff;
+    transition: 0.6s background-color;
+  }

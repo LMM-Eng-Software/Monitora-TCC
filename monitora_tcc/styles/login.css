@@ -1,7 +1,10 @@
 main {
     display: flex;
+    justify-content: space-between;
 
     flex-direction: row;
+
+    height: 75vh;
 
     background-color: #251C18;
 }
@@ -57,7 +60,7 @@ main {
     font-weight: bold;
 
     background-color: #74A3D2;
-}
+} 
 
 #btnCadastro {
     padding: 10px 20px 10px 20px;
