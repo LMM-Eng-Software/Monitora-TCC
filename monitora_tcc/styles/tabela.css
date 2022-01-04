@@ -34,11 +34,19 @@
 
     padding: 2vh;
 
+    line-height: 3vh;
+
     border: solid 1px #3D3D3D;
 }
 
 .td-autores-avaliadores {
-    line-height: 4vh;
+    line-height: 4vh !important;
+}
+
+.p-avaliador {
+    display: contents;
+
+    font-weight: bold;
 }
 
 .td-botao {
@@ -46,7 +54,7 @@
 }
 
 .td-botao button {
-    padding: 6px 18px 6px 18px;
+    padding: 6px 24px 6px 24px;
 
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
     border-radius: 5px;
@@ -61,6 +69,6 @@
     cursor: pointer;
 }
 
-.td-botao button p {
+.td-botao button a {
     margin-left: 24%;
 }
