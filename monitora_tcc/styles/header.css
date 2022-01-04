@@ -17,17 +17,20 @@ a {
 }
 
 .logo{
-    width: 21%;
+    width: 20vw;
 
-    margin-right: 1em;
+    margin-right: 2vw;
 }
 
 .titulo-site {
-    width: 69%;
+    width: 50vw;
 }
 
 .login {
-    width: 10%;
+    display: flex;
+    justify-content: end;
+    
+    width: 20vw;
 
     font-size: 0.5em;
 }

@@ -1,0 +1,32 @@
+.header-divisor {
+    margin: 0vw 0.5vw 0vw 0.5vw;
+}
+
+main {
+    height: auto;
+
+    margin: 4vh 4vh 10vh 4vh;
+
+    justify-content: flex-start;
+}
+
+.barra-tccs-concluidos {
+    background: #000103; /*#090C08*/
+    color: #1350ab;
+
+    border: 0 solid #1350ab;
+    border-top-width: 0.75vh;
+
+    font-size: 28px;
+    line-height: 4vh;
+
+    margin-bottom: 1.5vh;
+
+    padding: 2vh 2vh 2vh 2vh;
+}
+
+.lista-tccs td:nth-child(n+4):nth-child(-n+5) {
+    width: 5%;
+
+    text-align: center;
+}

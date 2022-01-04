@@ -1,0 +1,79 @@
+main {
+    display: flex;
+
+    flex-direction: row;
+
+    background-color: #251C18;
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+
+    margin: 4vh 4vh 4vh 4vh;
+}
+
+.div-cadastro {
+    margin: 4vh 4vh 4vh 4vh;
+
+    height: 45vh;
+    width: 20vw;
+
+    background-color: #F0F0F0; /* #DF2935 */
+}
+
+.form-cadastro {
+    display: flex;
+
+    flex-direction: column;
+
+    margin: 4vh 4vh 4vh 4vh;
+}
+
+.form-cadastro input {
+    padding: 5px;
+
+    border: none;
+    border-radius: 7px;
+
+    outline: none;
+
+    margin-bottom: 2vh;
+}
+
+.form-cadastro:last-child {
+    margin-bottom: 10vh;
+}
+
+#btnLogin {
+    margin-left: 4vh;
+    padding: 10px 20px 10px 20px;
+
+    border: none;
+    border-radius: 7px;
+
+    font-weight: bold;
+
+    background-color: #74A3D2;
+}
+
+#btnCadastro {
+    padding: 10px 20px 10px 20px;
+
+    border: none;
+    border-radius: 7px;
+
+    font-weight: bold;
+
+    background-color: #74A3D2;
+}
+
+.div-btn-cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    height: 30vh;
+}
