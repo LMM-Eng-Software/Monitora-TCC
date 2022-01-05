@@ -11,7 +11,7 @@
 - RF05 - Fazer Upload de TCC
 - RF06 - Gerar Ata de Banca
 - RF07 - Defesas Agendadas
-- RF08 - Gerar Termo de Concordância de Orientação
+- RF08 - Gerar Termo de Compromisso de Orientação
 - RF09 - Listar TCCs
 - RF10 - Gerar Declaração de Participação de Banca
 
@@ -28,7 +28,7 @@
 - [UC_05](reqs_upload.md)
 - [UC_06](reqs_ata.md)
 - [UC_07](reqs_defesas_agendadas.md)
-- [UC_08](reqs_concordancia.md)
+- [UC_08](reqs_compromisso.md)
 - [UC_09](reqs_listar.md)
 - [UC_10](reqs_participacao.md)
 
