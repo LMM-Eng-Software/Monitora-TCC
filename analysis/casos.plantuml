@@ -9,7 +9,7 @@ left to right direction
 
 
 package Monitora_TCC {
-"Visualizar TCC" as (Visualizar)
+"Gerar declaração de participação de banca" as (participacao)
 "Listar TCCs" as (Listar)
 "Buscar TCCs" as (Buscar)
 "Fazer Download de TCC" as (Download)
@@ -18,40 +18,38 @@ package Monitora_TCC {
 "Fazer Upload de Monografia" as (Upload)
 "Gerar Ata de Bancas" as (Atas)
 "Gerar Cronograma de Defesas" as (Crono)
-"Gerar Termo de Concordância de Orientação" as (Termo)
+"Gerar Termo de Compromisso de Orientação" as (Compromisso)
 }
 
-:Prof: -up-> (Buscar)
-:Prof: -up-> (Visualizar)
-:Prof: -up-> (Download)
+:Prof: --> (Buscar)
+:Prof: --> (participacao)
+:Prof: --> (Download)
+:Prof: --> (Listar)
+:Prof: --> (Upload)
+:Prof: --> (Login)
 
-:Prof: -up-> (Listar)
+:Aluno: --> (Listar)
+:Aluno: --> (Download)
+:Aluno: --> (Buscar)
+:Aluno: --> (Login)
+:Aluno: --> (Data)
+:Aluno: --> (Compromisso)
 
-:Prof: -up-> (Upload)
+(Participacao) -- :Sist:
 (Upload) --> :Sist:
 
-:Visit: --> (Visualizar)
-:Aluno: --> (Visualizar)
-
 :Visit: --> (Listar)
-:Aluno: --> (Listar)
 (Listar) --> :Sist:
 
 :Visit: --> (Download)
-:Aluno: --> (Download)
 (Download) --> :Sist:
 
 :Visit: --> (Buscar)
-:Aluno: --> (Buscar)
 
-:Aluno: --> (Login)
-:Prof: -up-> (Login)
 
-:Aluno: --> (Data)
 (Data) --> :Prof:
 
-:Aluno: --> (Termo)
-(Termo) --> :Sist:
+(Compromisso) -- :Sist:
 
 :Sist: -up-> (Atas)
 :Sist: -up-> (Crono)
