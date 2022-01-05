@@ -32,10 +32,10 @@
 - [UC_09](reqs_listar.md)
 - [UC_10](reqs_participacao.md)
 
+### Esquema do Diagrama de Casos de Uso
+![image](https://user-images.githubusercontent.com/62728919/148290278-80478285-fffb-4fad-86a3-0744d41fadb4.png)
 
-
-
-<!-- ## Requisitos não-funcionais
+## Requisitos não-funcionais
 
 ### Usabilidade
 
@@ -49,4 +49,4 @@
 
 [3] Angular ...
 
-[4] PlantUML ... -->
+[4] PlantUML ...
