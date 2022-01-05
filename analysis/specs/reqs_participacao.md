@@ -1,18 +1,15 @@
 # UC_10 - Gerar declaração de participação de banca
 
 ## Descrição
-Este caso permite que uma pessoa, acessando o site do SITCC, possa visualizar um TCC em específico disponível no site.
+Este caso de uso permite que o Sistema TCC gere um modelo da declaração de participação de banca.
 ## Ator
-Orientador, Visitante, Aluno eComp
+Orientador, Sistema TCC
 ## Pré-condições
-A pessoa deve estar na página com a listagem de TCCs disponíveis
+Estar logado na plataforma como professor orientador.
 ## Pós-condições
-O sistema deve abrir a página da monografia, contendo dados mais específicos sobre o papel. Além disso, uma prévia do arquivo .pdf do TCC deve ser exposta.
+O orientador terá disponível para baixar um modelo da declaração de participação de banca.
 ## Caso Base
-1. A pessoa faz o login no sistema utilizando seu id (matrícula ou id de professor) e senha
-2. O usuário acessa a página de listagem de TCCs
-3. O usuário clica no botão de "visualizar", ao lado de uma monografia específica na lista de TCCs
-4. O sistema exibe uma página específica para o TCC selecionado, contendo dados mais particulares sobre ele, como uma descrição própria e uma pré-visualização do arquivo .pdf
-## Caso Alternativo
-1. O visitante acessa a página de listagem de TCCs e clica na opção de visualizar
-## Casos de Exceção
+1. Orientador deseja baixar um modelo da declaração de participação;
+1. Orientador clica no botão "Declarar Participação";
+1. Sistema TCC gera uma tela para a visualização da declaração e redireciona o orientador;
+1. Sistema TCC gera um ícone de Download no cabeçalho da página;
