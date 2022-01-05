@@ -13,3 +13,7 @@ O download é efetuado e quem o solicitou já está apto a usá-lo.
 2. Clicar no botão "Download" da sessão "Monografia" do TCC o qual deseja-se baixar;
 3. É gerado uma solicitação de download para o site;
 4. Site autoriza a solicitação;
+## Casos de Exceção
+* CE1 - TCC indisponível  
+    * CE1.1 - Não houve o upload do TCC no site;
+    * CE1.2 - Sistema TCC não disponibiliza o botão "Download";

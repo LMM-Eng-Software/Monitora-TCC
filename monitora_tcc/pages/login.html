@@ -14,24 +14,26 @@
 </head>
 <body>
     <header>
+        <div class="logos">
+            <div class="logo"><h1><img src="../images/ecomp-graduacao.svg" alt="Logo do eComp"></h1></div>  
+        </div>
         <div class="titulo-site"><a href="../index.html">Monitora TCC</a></div>
     </header>
     
     <main>
-        <dvi class="logos">
-            <div class="logo"><h1><img src="../images/ecomp-graduacao.svg" alt="Logo do eComp"></h1></div>
-            <div class="logo-poli"><h1><img src="../images/logo-poli-branco.png" alt="Logo da Poli"></h1></div>
-        </dvi>
 
         <div class="div-cadastro">
-            <form class="form-cadastro">
-                <input type="text" name="firstname" placeholder="E-mail, Matrícula, CPF">
-                <input type="password" name="lastname" placeholder="Senha">
+            <form>
+                <h3>Efetuar Login</h3>
+                <div class="input-fields">
+                    <input id="cpf" type="text" name="firstname" placeholder="Seu CPF" required>
+                    <input type="password" name="lastname" placeholder="Sua Senha" required>    
+                </div>
+                <input type="submit" name="enter" placeholder="Entrar">
             </form>
-
-            <button id="btnLogin">Login</button>
         </div>
     </main>
 
 </body>
+
 </html>
