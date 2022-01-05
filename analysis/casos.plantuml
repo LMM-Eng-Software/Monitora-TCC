@@ -2,14 +2,14 @@
 left to right direction
 
 "Aluno eComp" as Aluno
+"Orientador" as Prof
 "Visitante" as Visit
 
 "Sistema TCC" as Sist
-"Orientador" as Prof
 
 
 package Monitora_TCC {
-"Gerar declaração de participação de banca" as (participacao)
+"Gerar declaração de participação de banca" as (Participacao)
 "Listar TCCs" as (Listar)
 "Buscar TCCs" as (Buscar)
 "Fazer Download de TCC" as (Download)
@@ -17,40 +17,38 @@ package Monitora_TCC {
 "Marcar Data de Defesa" as (Data)
 "Fazer Upload de Monografia" as (Upload)
 "Gerar Ata de Bancas" as (Atas)
-"Gerar Cronograma de Defesas" as (Crono)
+"Defesas Agendadas" as (Agendar)
 "Gerar Termo de Compromisso de Orientação" as (Compromisso)
 }
 
-:Prof: --> (Buscar)
-:Prof: --> (participacao)
-:Prof: --> (Download)
-:Prof: --> (Listar)
-:Prof: --> (Upload)
-:Prof: --> (Login)
+:Prof: ---> (Listar)
+:Prof: ---> (Download)
+:Prof: ---> (Buscar)
+:Prof: ---> (Participacao)
+:Prof: ---> (Upload)
+:Prof: ---> (Atas)
+:Prof: ---> (Login)
+:Prof: ---> (Agendar)
 
 :Aluno: --> (Listar)
 :Aluno: --> (Download)
+:Aluno: --> (Agendar)
 :Aluno: --> (Buscar)
 :Aluno: --> (Login)
 :Aluno: --> (Data)
 :Aluno: --> (Compromisso)
 
-(Participacao) -- :Sist:
-(Upload) --> :Sist:
-
 :Visit: --> (Listar)
-(Listar) --> :Sist:
-
 :Visit: --> (Download)
-(Download) --> :Sist:
-
+:Visit: --> (Agendar)
 :Visit: --> (Buscar)
 
-
-(Data) --> :Prof:
-
+(Participacao) -- :Sist:
+(Upload) -- :Sist:
+(Listar) -- :Sist:
+(Download) -- :Sist:
 (Compromisso) -- :Sist:
+(Agendar) -- :Sist:
+(Atas) -- :Sist:
 
-:Sist: -up-> (Atas)
-:Sist: -up-> (Crono)
 @enduml

@@ -32,7 +32,10 @@
 - [UC_09](reqs_listar.md)
 - [UC_10](reqs_participacao.md)
 
-## Requisitos não-funcionais
+
+
+
+<!-- ## Requisitos não-funcionais
 
 ### Usabilidade
 
@@ -46,4 +49,4 @@
 
 [3] Angular ...
 
-[4] PlantUML ...
+[4] PlantUML ... -->

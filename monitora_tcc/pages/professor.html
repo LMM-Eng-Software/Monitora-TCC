@@ -31,12 +31,23 @@
     <main>
         <div class=button-container>
             <a class="botao-link" href="../pages/defesas_agendadas.html">Agendar Defesa</a>
-            <input type="file" class="botao-link">Upload de TCC</input>
+            <button class="botao-link" onclick="document.getElementById('getFile').click()">Upload TCC</button>
+            <input type='file' id="getFile" style="display:none">
             <a class="botao-link" href="../pdf_viewer/web/viewer.html?file=TCC-Termo-de-participacao.pdf">
                 Declarar Participação
             </a>
-            <a class="botao-link" href="../pages/lista_tccs.html">Gerar Ata de Banca</a>
+            <a class="botao-link" href="../pdf_viewer/web/viewer.html?file=TCC-Ata-de-Banca.pdf">
+                Gerar Ata de Defesa
+            </a>
         </div>
+        <script>
+            $(function(){
+                $("#upload_link").on('click', function(e){
+                    e.preventDefault();
+                    $("#upload:hidden").trigger('click');
+                });
+            });
+        </script>
     </main>
     
 </body>
