@@ -9,7 +9,7 @@
 - RF03 - Fazer Login
 - RF04 - Marcar Data de Defesa
 - RF05 - Fazer Upload de TCC
-- RF06 - Gerar Ata de Banca
+- RF06 - Gerar Ata de Defesa
 - RF07 - Defesas Agendadas
 - RF08 - Gerar Termo de Compromisso de Orientação
 - RF09 - Listar TCCs

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/pagina-usuario.css">
+    <link rel="stylesheet" href="../styles/data.css">
+    
+    <title>Monitora TCC</title> 
+</head>
+<body>
+    <header>
+        <div class="logo"><h1><img src="../images/ecomp-graduacao.svg" alt="Logo do site"></h1></div>
+
+        <div class="titulo-site"><a href="../index.html">Monitora TCC</a></div>
+
+        <div class="usuario">
+            <div class="usuario-info">
+                <p>Professor</p>
+                <img src="../images/person_icon.png" alt="icone de usuario">
+            </div>
+            <a href="../pages/login.html">Sair</a>
+        </div>
+    </header>
+
+    <main>
+      <div class="div-cadastro">
+        <form onsubmit="alert('Data agendada!')">
+            <h3>Marcar Data de Defesa</h3>
+            <div class="input-fields">
+                <input type="text" name="firstname" placeholder="Título do TCC" required>
+                <input type="text" name="lastname" placeholder="Autores" required> 
+                <div id="time-date">
+                  <input class="date-time" type="date" placeholder="Data" required>
+                  <input class="date-time" type="time" placeholder="Horario" required>
+                </div> 
+            </div>
+            <input type="submit" name="enter" placeholder="Entrar">
+        </form>
+      </div>
+    </main>
+    
+</body>
+</html>
