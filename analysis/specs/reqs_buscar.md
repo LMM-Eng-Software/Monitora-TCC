@@ -1,4 +1,4 @@
-# Caso de uso: Buscar TCC
+# UC_01 - Buscar TCC
 
 ## Descrição:
 Este caso de uso permite filtrar os resultados de TCC visualizáveis com base no dado de entrada do usuário no campo "Buscar".

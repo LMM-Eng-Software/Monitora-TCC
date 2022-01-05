@@ -1,4 +1,4 @@
-# Caso de Uso: Gerar Termo de Concordância de Orientação
+# UC_08 - Gerar Termo de Concordância de Orientação
 
 ## Descrição:
 Este caso de uso permite que o Sistema TCC gere um modelo de ata de termo de concordância de orientação.

@@ -1,4 +1,4 @@
-# UC1 - Gerar declaração de participação de banca
+# UC_10 - Gerar declaração de participação de banca
 
 ## Descrição
 Este caso permite que uma pessoa, acessando o site do SITCC, possa visualizar um TCC em específico disponível no site.

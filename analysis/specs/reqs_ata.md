@@ -1,4 +1,4 @@
-# Caso de Uso: Gerar Ata de Banca
+# UC_06 - Gerar Ata de Banca
 
 ## Descrição:
 Este caso de uso permite que o Sistema TCC gere um modelo de ata de banca para apresentação do TCC.

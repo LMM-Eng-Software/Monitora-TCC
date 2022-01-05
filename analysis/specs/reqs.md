@@ -10,7 +10,7 @@
 - RF04 - Marcar Data de Defesa
 - RF05 - Fazer Upload de TCC
 - RF06 - Gerar Ata de Banca
-- RF07 - Gerar Cronograma de Defesa
+- RF07 - Defesas Agendadas
 - RF08 - Gerar Termo de Concordância de Orientação
 - RF09 - Listar TCCs
 - RF10 - Gerar Declaração de Participação de Banca

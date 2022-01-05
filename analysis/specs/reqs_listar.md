@@ -1,4 +1,4 @@
-# UC2 - Listar TCCs
+# UC_09 - Listar TCCs
 
 ## Descrição
 Este caso permite que uma pessoa, acessando o site do sistema, possa ver a lista de TCCs
