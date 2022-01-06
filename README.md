@@ -11,6 +11,9 @@ Acesse o site por meio do Link: [Monitora TCC](https://monitora-tcc.vercel.app)
 ![foto2](https://github.com/LMM-Eng-Software/Monitora-TCC/blob/main/imagens-README/site/app-image-2.jpg)
 ![foto3](https://github.com/LMM-Eng-Software/Monitora-TCC/blob/main/imagens-README/site/app-image-3.jpg)
 
+## Especificações do Projeto
+
+Visualize as especificações do projeto: [Especificações Monitora TCC](https://github.com/LMM-Eng-Software/Monitora-TCC/blob/main/analysis/specs/reqs.md)
 
 ## :man_technologist: Desenvolvedores
 <table>
