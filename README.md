@@ -12,7 +12,7 @@ Acesse o site por meio do Link: [Monitora TCC](https://monitora-tcc.vercel.app)
 ![foto3](https://github.com/LMM-Eng-Software/Monitora-TCC/blob/main/imagens-README/site/app-image-3.jpg)
 
 
-## Desenvolvedores
+## :man_technologist: Desenvolvedores
 <table>
   <tr>
     <td align="center">
