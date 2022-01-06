@@ -7,9 +7,9 @@ Um sistema de monitoramento e gestão de Trabalhos de Conclusão de Curso, feito
 Acesse o site por meio do Link: [Monitora TCC](https://monitora-tcc.vercel.app)
 
 ## Screenshots
-![foto1](https://github.com/LMM-Eng-Software/Monitora-TCC/blob/main/monitora_tcc/images/screenshots/app-image-1.jpg)
-![foto2](https://github.com/LMM-Eng-Software/Monitora-TCC/blob/main/monitora_tcc/images/screenshots/app-image-2.jpg)
-![foto3](https://github.com/LMM-Eng-Software/Monitora-TCC/blob/main/monitora_tcc/images/screenshots/app-image-3.jpg)
+![foto1](https://github.com/LMM-Eng-Software/Monitora-TCC/blob/main/imagens-README/site/app-image-1.jpg)
+![foto2](https://github.com/LMM-Eng-Software/Monitora-TCC/blob/main/imagens-README/site/app-image-2.jpg)
+![foto3](https://github.com/LMM-Eng-Software/Monitora-TCC/blob/main/imagens-README/site/app-image-3.jpg)
 
 
 ## Desenvolvedores
