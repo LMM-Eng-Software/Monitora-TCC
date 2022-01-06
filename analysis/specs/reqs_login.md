@@ -9,7 +9,7 @@ O aluno deve estar matriculado no curso de Engenharia da Computação da UPE, e 
 ## Pós-condições
 O sistema deve reconhecer, caso os dados batam com o banco de dados, o acesso do usuário cadastrado, e efetuar o login.
 ## Caso Base
-1. Na página inicial, clica-se em "Fazer Login";
+1. Na página inicial, clica-se na seta, localizada no canto superior direto;
 1. O Sistema TCC redireciona para a página de login;
 2. O usuário insere seus dados para login (cpf e senha) e clica em "Enviar";
 3. O sistema TCC faz uma consulta no banco de dados da Universidade, a fim de descobrir se o usuário é um aluno matriculado na Universidade e está inserido na disciplina de Trabalho de Conclusão de Curso;
@@ -20,7 +20,7 @@ O sistema deve reconhecer, caso os dados batam com o banco de dados, o acesso do
     * CA1.2 - O sistema faz uma consulta no banco de dados da Universidade, a fim de reconhecer os dados do professor;  
     * CA1.3 - O orientador é redirecionado para sua página de perfil;
 * CA2 - Login fora da página inicial
-    * CA2.1 - Na página TCCs agendados ou TCCs concluídos clica-se em "Fazer Login", localizado no canto superior direto da página;
+    * CA2.1 - Na página TCCs agendados ou TCCs concluídos clica-se na seta, localizada no canto superior direito da página;
     * CA2.1 - O Sistema TCC redireciona para a página de login;
     * CA2.1 - Se for um orientador volta ao passo 3 do caso alternativo 1, Senão volta ao passo 3 do caso base;
 ## Casos de Exceção

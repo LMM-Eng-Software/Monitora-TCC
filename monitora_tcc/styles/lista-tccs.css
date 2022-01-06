@@ -60,6 +60,8 @@ main {
 
     width: 100%;
 
+    cursor: pointer;
+
     font-weight: bold;
     background: #36BFB6;
 }

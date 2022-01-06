@@ -28,8 +28,8 @@
         <div class="barra-tccs-concluidos">TCCs concluídos</div>
         <div id="divBusca">
             <img src="../images/lupa-busca.svg" alt="Buscar..."/>
-            <input type="text" id="txtBusca" placeholder="Buscar..."/>
-            <button id="btnBusca">Buscar</button>
+            <input type="text" id="txtBusca" placeholder="Buscar..." data-input-buscar/>
+            <button id="btnBusca" data-botao-buscar>Buscar</button>
         </div>
 
         <div class="div-tabela">
@@ -61,7 +61,7 @@
                         </button>
                     </td>
                 </tr>
-                <tr>
+                <tr data-table-tcc2>
                     <td>
                         Estudo e desenvolvimento de sistema de detecção de som para identificação de focos de poluição sonora na cidade do Recife
                     </td>
@@ -106,4 +106,7 @@
     </main>
     
 </body>
+
+<script src="../scripts/buscar.js"></script>
+
 </html>

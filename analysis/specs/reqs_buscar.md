@@ -10,7 +10,7 @@ Estar na página de "Visualizar TCCs".
 Usuário visualiza TCCs com base na sua pesquisa.
 ## Caso Base:
 1. Usuário deseja visualizar TCCs com um tema específico;
-1. Usuário insere no campo "Buscar" o tema de TCC o qual deseja visualizar;
+1. Usuário insere no campo "Buscar..." o tema de TCC o qual deseja visualizar;
 1. Sistema TCC realiza um filtro nos TCCs disponíveis no site;
 1. Sistema TCC exibe os resultados correspondentes à pesquisa do usuário;
 ## Casos Alternativos:
@@ -24,7 +24,7 @@ Usuário visualiza TCCs com base na sua pesquisa.
   * CA2.3 - Retorna ao passo 3 do caso base;  
 ## Casos de Exceção:
 * CE1 - Entrada Inválida  
-  * CE1.1 - Usuário insere uma entrada no campo "Buscar";  
+  * CE1.1 - Usuário insere uma entrada no campo "Buscar...";  
   * CE1.2 - Sistema TCC não encontra resultados correspondentes de TCCs disponíveis no site ao fazer o filtro;  
   * CE1.3 - Sistema TCC exibe uma notificação "Nenhum resultado encontrado";  
   * CE1.4 - Sistema TCC mantém os resultados de busca já visualizáveis;  

@@ -2,9 +2,9 @@
 left to right direction
 
 "Visitante" as Visit
+"Orientador" as Prof
 "Aluno eComp" as Aluno
 
-"Orientador" as Prof
 "Sistema TCC" as Sist
 
 package Monitora_TCC {
@@ -20,28 +20,28 @@ package Monitora_TCC {
 "Gerar Termo de Compromisso de Orientação" as (Compromisso)
 }
 
-:Prof: -up-> (Listar)
-:Prof: -up-> (Download)
-:Prof: -up-> (Buscar)
-:Prof: -up-> (Participacao)
-:Prof: -up-> (Upload)
-:Prof: -up-> (Atas)
-:Prof: -up-> (Data)
-:Prof: -up-> (Login)
-:Prof: -up-> (Agendar)
+:Prof: --> (Listar)
+:Prof: --> (Download)
+:Prof: --> (Buscar)
+:Prof: --> (Participacao)
+:Prof: --> (Upload)
+:Prof: --> (Atas)
+:Prof: --> (Data)
+:Prof: --> (Login)
+:Prof: --> (Agendar)
 
-:Aluno: ---> (Listar)
-:Aluno: ---> (Download)
-:Aluno: ---> (Agendar)
-:Aluno: ---> (Buscar)
-:Aluno: ---> (Login)
-:Aluno: ---> (Compromisso)
+:Aluno: --> (Listar)
+:Aluno: --> (Download)
+:Aluno: --> (Agendar)
+:Aluno: --> (Buscar)
+:Aluno: --> (Login)
+:Aluno: --> (Compromisso)
 
-:Visit: --> (Listar)
-:Visit: --> (Download)
-:Visit: --> (Agendar)
-:Visit: --> (Login)
-:Visit: --> (Buscar)
+:Visit: ---> (Listar)
+:Visit: ---> (Download)
+:Visit: ---> (Agendar)
+:Visit: ---> (Login)
+:Visit: ---> (Buscar)
 
 (Participacao) --- :Sist:
 (Upload) --- :Sist:

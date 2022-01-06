@@ -17,7 +17,7 @@
 
 ### Diagrama de Casos de Uso
 
-- [UC_00](../casos.plantuml)
+- [Diagrama](../casos.plantuml)
 
 ### Especificicações de Casos de Uso
 
@@ -33,20 +33,4 @@
 - [UC_10](reqs_participacao.md)
 
 ### Esquema do Diagrama de Casos de Uso
-![image](https://user-images.githubusercontent.com/62728919/148290278-80478285-fffb-4fad-86a3-0744d41fadb4.png)
-
-## Requisitos não-funcionais
-
-### Usabilidade
-
-... Segundo ... Nilsen ...
-
-## Referências
-
-[1] Nilsen ...
-
-[2] Ian Somerville ...
-
-[3] Angular ...
-
-[4] PlantUML ...
+![image](https://user-images.githubusercontent.com/62728919/148449723-c9ea0337-1248-4fe3-beb9-dee8f010c2d8.png)
