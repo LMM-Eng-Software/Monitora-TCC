@@ -6,9 +6,9 @@ Um sistema de monitoramento e gestão de Trabalhos de Conclusão de Curso, feito
 É necessário abrir o arquivo *index.html*, na pasta monitora_tcc, utilizando a extensão Live Server, disponível no VSCode.
 
 ## Screenshots
-![](monitora_tcc\images\screenshots\app-image-1.png)
-![](monitora_tcc\images\screenshots\app-image-2.png)
-![](monitora_tcc\images\screenshots\app-image-3.png)
+![](monitora_tcc\images\screenshots\app-image-1.jpg)
+![](monitora_tcc\images\screenshots\app-image-2.jpg)
+![](monitora_tcc\images\screenshots\app-image-3.jpg)
 
 
 # Desenvolvedores
