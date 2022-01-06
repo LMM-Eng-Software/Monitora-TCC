@@ -1,32 +1,33 @@
-# Monitora TCC
+# 📝 Monitora TCC
 
 Um sistema de monitoramento e gestão de Trabalhos de Conclusão de Curso, feito para o curso de Engenharia da Computação da Escola Politécnica da Universidade de Pernambuco. 
 
-## Inicialização
-É necessário abrir o arquivo *index.html*, na pasta monitora_tcc, utilizando a extensão Live Server, disponível no VSCode.
+## 🖥️ Acessando o Site
+
+Acesse o site por meio do Link: [Monitora TCC](https://monitora-tcc.vercel.app)
 
 ## Screenshots
-![](monitora_tcc\images\screenshots\app-image-1.jpg)
-![](monitora_tcc\images\screenshots\app-image-2.jpg)
-![](monitora_tcc\images\screenshots\app-image-3.jpg)
+![foto1](https://github.com/LMM-Eng-Software/Monitora-TCC/blob/main/monitora_tcc/images/screenshots/app-image-1.jpg)
+![foto2](https://github.com/LMM-Eng-Software/Monitora-TCC/blob/main/monitora_tcc/images/screenshots/app-image-2.jpg)
+![foto3](https://github.com/LMM-Eng-Software/Monitora-TCC/blob/main/monitora_tcc/images/screenshots/app-image-3.jpg)
 
 
-# Desenvolvedores
+## Desenvolvedores
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/LucasHenrique-dev">
-        <img src="monitora_tcc\images\students\lucas-henrique.jpg" width="100px;"/><br>
+      <a href="https://github.com/Rafarinh0">
+        <img src="imagens-README/contribuidores/perfil-gabriel.png" width="100px;" alt="Foto do Rafael Marinho no GitHub"/><br>
         <sub>
-          <b>Lucas Henrique</b>
+          <b>Rafael Marinho</b>
         </sub>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/Rafarinh0">
-        <img src="monitora_tcc\images\students\rafael-marinho.jpg" width="100px;"/><br>
+      <a href="https://github.com/LucasHenrique-dev">
+        <img src="imagens-README/contribuidores/foto-perfil.svg" width="100px;" alt="Foto do Lucas Henrique no Github"/><br>
         <sub>
-          <b>Rafael Marinho</b>
+          <b>Lucas Henrique</b>
         </sub>
       </a>
     </td>
