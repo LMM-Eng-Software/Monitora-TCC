@@ -17,7 +17,7 @@ Acesse o site por meio do Link: [Monitora TCC](https://monitora-tcc.vercel.app)
   <tr>
     <td align="center">
       <a href="https://github.com/Rafarinh0">
-        <img src="imagens-README/contribuidores/perfil-gabriel.png" width="100px;" alt="Foto do Rafael Marinho no GitHub"/><br>
+        <img src="imagens-README/contribuidores/rafael-perfil.svg" width="100px;" alt="Foto do Rafael Marinho no GitHub"/><br>
         <sub>
           <b>Rafael Marinho</b>
         </sub>
@@ -25,7 +25,7 @@ Acesse o site por meio do Link: [Monitora TCC](https://monitora-tcc.vercel.app)
     </td>
     <td align="center">
       <a href="https://github.com/LucasHenrique-dev">
-        <img src="imagens-README/contribuidores/foto-perfil.svg" width="100px;" alt="Foto do Lucas Henrique no Github"/><br>
+        <img src="imagens-README/contribuidores/lucas-perfil.svg" width="100px;" alt="Foto do Lucas Henrique no Github"/><br>
         <sub>
           <b>Lucas Henrique</b>
         </sub>
