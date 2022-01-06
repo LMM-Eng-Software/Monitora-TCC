@@ -1,12 +1,11 @@
 @startuml casosdeuso
 left to right direction
 
-"Aluno eComp" as Aluno
-"Orientador" as Prof
 "Visitante" as Visit
+"Aluno eComp" as Aluno
 
+"Orientador" as Prof
 "Sistema TCC" as Sist
-
 
 package Monitora_TCC {
 "Gerar declaração de participação de banca" as (Participacao)
@@ -31,25 +30,28 @@ package Monitora_TCC {
 :Prof: -up-> (Login)
 :Prof: -up-> (Agendar)
 
-:Aluno: --> (Listar)
-:Aluno: --> (Download)
-:Aluno: --> (Agendar)
-:Aluno: --> (Buscar)
-:Aluno: --> (Login)
-:Aluno: --> (Compromisso)
+:Aluno: ---> (Listar)
+:Aluno: ---> (Download)
+:Aluno: ---> (Agendar)
+:Aluno: ---> (Buscar)
+:Aluno: ---> (Login)
+:Aluno: ---> (Compromisso)
 
 :Visit: --> (Listar)
 :Visit: --> (Download)
 :Visit: --> (Agendar)
+:Visit: --> (Login)
 :Visit: --> (Buscar)
 
-(Participacao) -- :Sist:
-(Upload) -- :Sist:
-(Listar) -- :Sist:
-(Download) -- :Sist:
-(Compromisso) -- :Sist:
-(Agendar) -- :Sist:
-(Atas) -- :Sist:
-(Data) -- :Sist:
+(Participacao) --- :Sist:
+(Upload) --- :Sist:
+(Listar) --- :Sist:
+(Download) --- :Sist:
+(Compromisso) --- :Sist:
+(Agendar) --- :Sist:
+(Atas) --- :Sist:
+(Data) --- :Sist:
+(Login) --- :Sist:
+(Buscar) --- :Sist:
 
 @enduml
