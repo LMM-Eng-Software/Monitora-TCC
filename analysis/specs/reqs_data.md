@@ -17,8 +17,7 @@ O sistema deve exibir uma mensagem de "Defesa Agendada!", e os dados da apresent
 * CE1 - Entrada Inválida  
   * CE1.1 - Orientador insere um dia e horário que já está ocupado ou uma data inválida;  
   * CE1.2 - O Sistema TCC, ao receber a informação, faz uma busca no banco de dados do cronograma, e, ao iterar pela lista de datas e horários, percebe que já existe um dia e hora iguais aos que foram preenchidos;  
-  * CE1.3 - O Sistema TCC não faz a adição da defesa ao cronograma, e exibe uma notificação "Já existe uma defesa marcada para este horário!";  
-  * CE1.4 - O Sistema TCC dá um reset no calendário e na lista de horários, permitindo ao orientador fazer uma outra escolha;
+  * CE1.3 - O Sistema TCC não faz a adição da defesa ao cronograma, e exibe uma notificação "Já existe uma defesa marcada para este horário!", não preenchendo o input e esperando uma nova entrada do usuário;  
 * CE2 - Campo não informado
   * CE2.1 - No passo 4 do caso base, tenta-se submitar o formulário com 1 ou mais campos sem as devidas informações;
   * CE2.2 - Sistema TCC impede que o formulário seja submitado e destaca o campo não preenchido mostrando a mensagem "Preencha este campo."

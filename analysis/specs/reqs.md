@@ -17,7 +17,7 @@
 
 ### Diagrama de Casos de Uso
 
-- [UC_00](casos.plantuml)
+- [UC_00](../casos.plantuml)
 
 ### Especificicações de Casos de Uso
 
