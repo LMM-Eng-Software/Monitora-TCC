@@ -27,6 +27,7 @@ package Monitora_TCC {
 :Prof: ---> (Participacao)
 :Prof: ---> (Upload)
 :Prof: ---> (Atas)
+:Prof: ---> (Data)
 :Prof: ---> (Login)
 :Prof: ---> (Agendar)
 
@@ -35,7 +36,6 @@ package Monitora_TCC {
 :Aluno: --> (Agendar)
 :Aluno: --> (Buscar)
 :Aluno: --> (Login)
-:Aluno: --> (Data)
 :Aluno: --> (Compromisso)
 
 :Visit: --> (Listar)
@@ -50,5 +50,6 @@ package Monitora_TCC {
 (Compromisso) -- :Sist:
 (Agendar) -- :Sist:
 (Atas) -- :Sist:
+(Data) -- :Sist:
 
 @enduml

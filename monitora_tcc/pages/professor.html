@@ -31,7 +31,7 @@
     <main>
         <div class=button-container>
             <a class="botao-link" href="../pages/data.html">Agendar Defesa</a>
-            <button class="botao-link" onclick="document.getElementById('getFile').click()">Upload TCC</button>
+            <a class="botao-link" onclick="document.getElementById('getFile').click()">Upload TCC</a>
             <input type='file' id="getFile" style="display:none">
             <a class="botao-link" href="../pdf_viewer/web/viewer.html?file=TCC-Termo-de-participacao.pdf">
                 Declarar Participação
@@ -41,10 +41,10 @@
             </a>
         </div>
         <script>
-            $(function(){
-                $("#upload_link").on('click', function(e){
+            (function(){
+                ("#upload_link").on('click', function(e){
                     e.preventDefault();
-                    $("#upload:hidden").trigger('click');
+                    ("#upload:hidden").trigger('click');
                 });
             });
         </script>
