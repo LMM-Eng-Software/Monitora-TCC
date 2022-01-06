@@ -23,17 +23,19 @@
     <main>
 
         <div class="div-cadastro">
-            <form>
+            <form> <!-- action="professor.html"*/ -->
                 <h3>Efetuar Login</h3>
                 <div class="input-fields">
-                    <input id="cpf" type="text" name="firstname" placeholder="Seu CPF" required>
-                    <input type="password" name="lastname" placeholder="Sua Senha" required>    
+                    <input id="cpf" type="text" name="firstname" placeholder="Seu CPF" required data-input-cpf>
+                    <input type="password" name="lastname" placeholder="Sua Senha" required>
                 </div>
-                <input type="submit" name="enter" placeholder="Entrar">
+                <input type="submit" name="enter" placeholder="Aluno" data-input-submit>
             </form>
         </div>
     </main>
 
 </body>
+
+<script src="../scripts/login.js"></script>
 
 </html>

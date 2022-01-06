@@ -10,7 +10,7 @@ O aluno deve estar matriculado no curso de Engenharia da Computação, e o orien
 O sistema deve reconhecer, caso os dados batam com o banco de dados, o acesso do usuário cadastrado, e efetuar o login.
 ## Caso Base
 1. O aluno acessa a página de "Acessar Sistema"
-2. Em seguida, insere seus dados para login (cpf e matrícula)
+2. Em seguida, insere seus dados para login (cpf e matrícula) e clica em "Enviar"
 3. O sistema faz uma consulta no banco de dados da Universidade, a fim de descobrir se o aluno está matriculado na Universidade e está inserido na disciplina de Trabalho de Conclusão de Curso.
 4. O usuário é redirecionado para sua página de perfil
 ## Caso Alternativo
@@ -22,7 +22,7 @@ O sistema deve reconhecer, caso os dados batam com o banco de dados, o acesso do
 * CE1 - Usuário sem cadastro  
     * CE1.1 - No passo 3 do caso base e do caso alternativo, se o usuário não atender a nenhuma das preposições, o acesso será negado. No entanto, ele poderá utilizar outros aspectos do sistema
 * CE2 - Campo não informado
-  * CE2.1 - No passo 4 do caso base, tenta-se submitar o formulário com 1 ou mais campos sem as devidas informações;
-  * CE2.2 - Sistema TCC impede que o formulário seja submitado e destaca o campo não preenchido mostrando a mensagem "Preencha este campo."
-  * CE2.3 - Formulário permanece inalterado e volta ao passo 1 do caso de Exceção até que o orientador preencha todos os campos
-  * CE2.4 - Formulário está devidamente preenchido e pode ser submitado;
+  * CE2.1 - No passo 2 do caso base, tenta-se submitar o formulário com 1 ou mais campos sem as devidas informações;
+  * CE2.2 - Sistema TCC impede que o formulário seja submitado e destaca o campo não preenchido, mostrando a mensagem "Preencha este campo."
+  * CE2.3 - O formulário permanece inalterado e volta ao passo 1 do caso de Exceção até que o orientador preencha todos os campos
+  * CE2.4 - O formulário está devidamente preenchido e pode ser submitado;

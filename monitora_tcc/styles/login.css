@@ -9,6 +9,8 @@ body {
     display: flex;
     flex-direction: column;
   
+    height: 75vh;
+
     align-items: center;
     justify-content: center;
   }
@@ -34,7 +36,6 @@ body {
     justify-content: space-evenly;
     transition: 0.5s;
     transform: translateY(0);
-    margin-top: 40px;
   }
 
   form h3{
