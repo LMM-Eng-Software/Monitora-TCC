@@ -1,7 +1,7 @@
 # UC_03 - Fazer Login
 
 ## Descrição
-Este caso permite que um aluno do curso de eComp ou o orientador possam fazer login em suas contas no sistema, permitindo assim diferenciá-los dos visitantes.  
+Este caso permite que um aluno do curso de eComp ou o orientador possam fazer login em suas contas no sistema, permitindo assim diferenciá-los dos visitantes. A senha do aluno será o seu número de matrícula, e a do orientador, seu id de professor da universidade.
 ## Ator
 Orientador, Aluno eComp, Visitante, Sistema TCC.
 ## Pré-condições
