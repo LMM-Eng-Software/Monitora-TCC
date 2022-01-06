@@ -6,9 +6,9 @@ Um sistema de monitoramento e gestão de Trabalhos de Conclusão de Curso, feito
 É necessário abrir o arquivo *index.html*, na pasta monitora_tcc, utilizando a extensão Live Server, disponível no VSCode.
 
 ## Screenshots
-![](../../monitora_tcc/images/screenshots/app-image-1.jpg)
-![](../../monitora_tcc/images/screenshots/app-image-2.jpg)
-![](../../monitora_tcc/images/screenshots/app-image-3.jpg)
+![](monitora_tcc\images\screenshots\app-image-1.png)
+![](monitora_tcc\images\screenshots\app-image-2.png)
+![](monitora_tcc\images\screenshots\app-image-3.png)
 
 
 # Desenvolvedores
@@ -16,7 +16,7 @@ Um sistema de monitoramento e gestão de Trabalhos de Conclusão de Curso, feito
   <tr>
     <td align="center">
       <a href="https://github.com/LucasHenrique-dev">
-        <img src="../../monitora_tcc/images/students/lucas-henrique.jpg" width="100px;"/><br>
+        <img src="monitora_tcc\images\students\lucas-henrique.jpg" width="100px;"/><br>
         <sub>
           <b>Lucas Henrique</b>
         </sub>
@@ -24,7 +24,7 @@ Um sistema de monitoramento e gestão de Trabalhos de Conclusão de Curso, feito
     </td>
     <td align="center">
       <a href="https://github.com/Rafarinh0">
-        <img src="../../monitora_tcc/images/students/rafael-marinho.jpg" width="100px;"/><br>
+        <img src="monitora_tcc\images\students\rafael-marinho.jpg" width="100px;"/><br>
         <sub>
           <b>Rafael Marinho</b>
         </sub>
