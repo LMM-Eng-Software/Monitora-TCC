@@ -17,7 +17,7 @@
 
 ### Diagrama de Casos de Uso
 
-- [Diagrama](../casos.plantuml)
+- ![Diagrama](../casos.plantuml)
 
 ### Especificicações de Casos de Uso
 
